@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:italic;
+}
+.container{
+    max-width: 1000px;
+    background-color: azure;
+    margin: 0 auto;
+    padding:15px;
+}
+.profile-image{
+    height: 120px;
+    width: 150px;
+    border: 3px solid rgb(87, 85, 85);
+    border-radius: 50%;
+float: left;
+}
+.bio{
+   float: left; 
+   padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(6, 114, 78);
+}
+.contrect{
+    float: right;
+padding: 30px;
+}
+.contrect a{
+    text-decoration: none;
+    color: rgb(42, 40, 40);
+    font-weight: bold;
+}
+.contrect a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.div-clear{
+    clear: both;
+}
+    /*parsonal*/
+    #parsonal-section{
+
+    }
+    .content{
+margin-bottom: 30px;
+    }
+    .div-left{
+width: 30%;
+float: left;
+    }
+    .div-right{
+width: 60%;
+float: right;
+padding: 10px;
+    }
+    .common-hr{
+        border: solid black 1px;
+        border-bottom: none;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .edu-tem-left{
+        width: 45%;
+float: left;
+   }
+    .edu-tem-right{
+         width: 45%;
+float: right;
+ }
+ .bottom-container{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+ }
+ .bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+     }
+ .bottom-container a:hover{
+    text-decoration: underline;
+    color: brown;
+ }
+ .bottom-container p{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    }
+ 
+
+ 
